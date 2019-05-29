@@ -4,7 +4,7 @@
 #
 Name     : distributed
 Version  : 1.28.1
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/45/af/dd647e2be815513c8db9c2e2cde79e7a8b336a8b714b9c6e4c420025da78/distributed-1.28.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/45/af/dd647e2be815513c8db9c2e2cde79e7a8b336a8b714b9c6e4c420025da78/distributed-1.28.1.tar.gz
 Summary  : Distributed scheduler for Dask
@@ -18,7 +18,6 @@ Requires: PyYAML
 Requires: click
 Requires: cloudpickle
 Requires: dask
-Requires: futures
 Requires: msgpack
 Requires: psutil
 Requires: singledispatch
@@ -33,7 +32,6 @@ BuildRequires : buildreq-distutils3
 BuildRequires : click
 BuildRequires : cloudpickle
 BuildRequires : dask
-BuildRequires : futures
 BuildRequires : msgpack
 BuildRequires : psutil
 BuildRequires : singledispatch
@@ -45,9 +43,9 @@ BuildRequires : tornado
 BuildRequires : zict
 
 %description
-Distributed
 ===========
-A library for distributed computation.  See documentation_ for more details.
+        
+        A library for distributed computation.  See documentation_ for more details.
 
 %package bin
 Summary: bin components for the distributed package.
@@ -92,7 +90,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1557810310
+export SOURCE_DATE_EPOCH=1559112088
+export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
