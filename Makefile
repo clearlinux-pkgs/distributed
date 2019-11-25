@@ -1,5 +1,5 @@
 PKG_NAME := distributed
-URL = https://files.pythonhosted.org/packages/51/36/b28e86e1de422406d5a33d8e50bd578e0dab699ac11d8e656c6796d88aa5/distributed-2.8.0.tar.gz
+URL = https://files.pythonhosted.org/packages/65/2f/df6a239ca9792585915c840d224becd35aaa3adcdc04215d10234679bc2f/distributed-2.8.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
