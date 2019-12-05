@@ -4,7 +4,7 @@
 #
 Name     : distributed
 Version  : 2.8.1
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/65/2f/df6a239ca9792585915c840d224becd35aaa3adcdc04215d10234679bc2f/distributed-2.8.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/65/2f/df6a239ca9792585915c840d224becd35aaa3adcdc04215d10234679bc2f/distributed-2.8.1.tar.gz
 Summary  : Distributed scheduler for Dask
