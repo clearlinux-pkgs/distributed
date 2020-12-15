@@ -4,7 +4,7 @@
 #
 Name     : distributed
 Version  : 2020.12.0
-Release  : 64
+Release  : 65
 URL      : https://files.pythonhosted.org/packages/12/6c/bfbc58623035e643d3f05f37b21779af97c36063ea6047bb6186a8ac6a6c/distributed-2020.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/12/6c/bfbc58623035e643d3f05f37b21779af97c36063ea6047bb6186a8ac6a6c/distributed-2020.12.0.tar.gz
 Summary  : Distributed scheduler for Dask
