@@ -4,7 +4,7 @@
 #
 Name     : distributed
 Version  : 2021.10.0
-Release  : 90
+Release  : 91
 URL      : https://files.pythonhosted.org/packages/94/32/8812690ea76b0c67916fc0643614b25193e818756d91eb69cfdea0cfda5d/distributed-2021.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/32/8812690ea76b0c67916fc0643614b25193e818756d91eb69cfdea0cfda5d/distributed-2021.10.0.tar.gz
 Summary  : Distributed scheduler for Dask
